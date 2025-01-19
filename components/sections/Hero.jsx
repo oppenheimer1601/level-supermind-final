@@ -7,9 +7,9 @@ import { GiSun } from "react-icons/gi";
 const Hero = () => {
   return (
     <div className='w-screen h-screen bg-[#100821] flex items-center justify-center flex-col text-[#d5d2be]'>
-      {/* <Spline
+      <Spline
         scene="https://prod.spline.design/FjA66sa8DZSxFHbk/scene.splinecode" 
-      /> */}
+      />
       <div className='absolute w-full h-full flex flex-col items-center justify-center z-20'>
         <motion.h1 className='text-[200px] font-bold' initial={{opacity:0,y:-60}} animate={{opacity:1,y:0}} transition={{duration:0.5}}>Luna Vista.</motion.h1>
         <motion.p className='text-xl tracking-wider' initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5,delay:0.5}}>Your cosmic journey starts here | Align your path with the stars above</motion.p>
