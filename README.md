@@ -41,6 +41,34 @@ The AI-Powered Spiritual Guide is an innovative platform designed to provide per
 
 ---
 
+## Deployment
+
+To deploy this project run
+
+Install all packages
+```bash
+    npm i  
+```
+To start project in local host
+```bash
+    npm run dev
+```
+Environmental Variable :
+
+  APPLICATION_TOKEN
+
+  FLOW_ID
+
+  LANGFLOW_ID
+
+  NEXT_PUBLIC_CHART_API_KEY
+
+  FLOW_ID2
+
+  APPLICATION_TOKEN2
+
+
+
 ## Technical Details
 
 ### **Frontend**
